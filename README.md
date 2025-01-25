@@ -4,9 +4,12 @@ The **NerdFont Icon Picker** is a plugin for [Obsidian](https://obsidian.md/). I
 
 ## Requirements
 - you need a Nerd Font as your text and interface font
+### Without plugin
   - install [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
   - go to `Settings > Appeareance > Font`
   - set text and interface font to [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
+### With plugin
+- I recommend to use the [Custom Font Loader](https://github.com/pourmand1376/obsidian-custom-font) for mobile support
 ## Installation
 ### Using BRAT plugin
 - use [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin
