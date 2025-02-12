@@ -43046,6 +43046,5 @@ export class IconSearch extends FuzzySuggestModal<Icon> {
 		icon.icon,
 		this.app.workspace.getActiveViewOfType(MarkdownView).editor.getCursor()
 	);
-	console.log(this.app.workspace.getActiveViewOfType(MarkdownView).editor.getCursor())
   }
 }
