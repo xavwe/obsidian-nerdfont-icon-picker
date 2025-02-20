@@ -16,6 +16,6 @@ The **NerdFont Icon Picker** is a plugin for [Obsidian](https://obsidian.md/). I
 ### Manual
 - Download source code from [latest release](https://github.com/xavwe/obsidian-nerdfont-icon-picker/releases/latest)
 - unpack it into `path/to/vault/.obsidian/plugins`
-# Getting started
+## Getting started
 - just use command palette or assign hotkey
 - have fun ;-)
