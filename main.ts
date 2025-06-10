@@ -1,8 +1,24 @@
 import { App, Editor, MarkdownView, Plugin, FuzzySuggestModal } from 'obsidian';
-const icon = "test";
+
+interface NerdfontPickerSettings {
+	pinnedIcons: string[];
+}
+
+const DEFAULT_SETTINGS: NerdfontPickerSettings = {
+	pinnedIcons: [],
+};
+
+interface Icon {
+	title: string;
+	icon: string;
+}
 
 export default class NerdfontPicker extends Plugin {
-	onload() {
+	settings: NerdfontPickerSettings;
+
+	async onload() {
+		await this.loadSettings();
+
 		this.addCommand({
 			id: 'insert-icon',
 			name: 'insert icon',
@@ -10,15 +26,23 @@ export default class NerdfontPicker extends Plugin {
 				const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
 				if (markdownView) {
 					if (!checking) {
-						new IconSearch(this.app).open();
+						new IconSearch(this.app, this.settings, (settings) => this.saveSettings(settings)).open();
 					}
 					return true;
 				}
 			}
 		});
 	}
-}
 
+	async loadSettings() {
+		this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+	}
+
+	async saveSettings(settings: NerdfontPickerSettings) {
+		this.settings = settings;
+		await this.saveData(settings);
+	}
+}
 
 const TITLE = [
 {
@@ -43027,24 +43051,49 @@ const TITLE = [
 } 
 ]; 
 
-interface Icon {
-	title: string;
-	icon: string;
-}
-
 export class IconSearch extends FuzzySuggestModal<Icon> {
-  getItems(): Icon[] {
-    return TITLE;
-  }
+	private pinnedIcons: string[];
+	private onSave: (settings: NerdfontPickerSettings) => void;
 
-  getItemText(icon: Icon): string {
-    return icon.title + " - " + icon.icon;
-  }
+	constructor(app: App, settings: NerdfontPickerSettings, onSave: (settings: NerdfontPickerSettings) => void) {
+		super(app);
+		this.pinnedIcons = settings.pinnedIcons;
+		this.onSave = onSave;
+	}
 
-  onChooseItem(icon: Icon, evt: MouseEvent | KeyboardEvent) {
-	this.app.workspace.getActiveViewOfType(MarkdownView).editor.replaceSelection(
-		icon.icon,
-		this.app.workspace.getActiveViewOfType(MarkdownView).editor.getCursor()
-	);
-  }
+	getItems(): Icon[] {
+		const pinned = TITLE.filter(i => this.pinnedIcons.includes(i.title));
+		const rest = TITLE.filter(i => !this.pinnedIcons.includes(i.title));
+		return [...pinned, ...rest];
+	}
+
+	getItemText(icon: Icon): string {
+		const isPinned = this.pinnedIcons.includes(icon.title);
+		return `${isPinned ? '📌 ' : ''}${icon.title} - ${icon.icon}`;
+	}
+
+	onChooseItem(icon: Icon, evt: MouseEvent | KeyboardEvent) {
+		const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
+		const editor = markdownView?.editor;
+		if (editor) {
+			// Ctrl/Cmd + click to pin/unpin, else insert icon
+			if ((evt as MouseEvent).ctrlKey || (evt as MouseEvent).metaKey) {
+				this.togglePin(icon.title);
+			} else {
+				editor.replaceSelection(icon.icon);
+				this.close();
+			}
+		}
+	}
+
+	private togglePin(iconTitle: string) {
+		if (this.pinnedIcons.includes(iconTitle)) {
+			this.pinnedIcons = this.pinnedIcons.filter(i => i !== iconTitle);
+		} else {
+			this.pinnedIcons.unshift(iconTitle);
+		}
+		this.onSave({ pinnedIcons: this.pinnedIcons });
+		this.close();
+		new IconSearch(this.app, { pinnedIcons: this.pinnedIcons }, this.onSave).open();
+	}
 }
