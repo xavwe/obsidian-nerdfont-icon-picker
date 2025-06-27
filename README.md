@@ -1,5 +1,7 @@
 # NerdFont Icon Picker
 
+[![Downloads](https://img.shields.io/github/downloads/xavwe/obsidian-nerdfont-icon-picker/total?style=flat-square)](https://github.com/xavwe/obsidian-nerdfont-icon-picker/releases)
+
 The **NerdFont Icon Picker** is a plugin for [Obsidian](https://obsidian.md/). It adds an easy-to-use [Nerd Font](https://github.com/ryanoasis/nerd-fonts) icon picker to Obsidian.
 
 ![](.github/assets/screenshot.png)
