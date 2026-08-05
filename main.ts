@@ -36,10 +36,7 @@ export class IconSearch extends FuzzySuggestModal<Icon> {
   onChooseItem(icon: Icon, evt: MouseEvent | KeyboardEvent) {
 	const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
 	if (markdownView) {
-		markdownView.editor.replaceSelection(
-			icon.icon,
-			// markdownView.editor.getCursor()
-		);
+		markdownView.editor.replaceSelection(icon.icon);
 	}
   }
 }
