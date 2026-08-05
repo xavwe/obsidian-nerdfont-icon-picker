@@ -7,7 +7,8 @@
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"format": "oxfmt ./src ./package.json ./versions.json ./eslint.config.mts ./esbuild.config.mjs ./manifest.json"
 	},
 	"keywords": [],
 	"author": "",
@@ -22,6 +23,7 @@
 		"jiti": "^2.6.1",
 		"obsidian": "latest",
 		"typescript": "^5.8.3",
-		"typescript-eslint": "^8.59.1"
+		"typescript-eslint": "^8.59.1",
+		"oxfmt": "^0.62.0"
 	}
 }
