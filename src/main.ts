@@ -1,19 +1,18 @@
-import { App, Editor, MarkdownView, Plugin, FuzzySuggestModal } from 'obsidian';
+import { MarkdownView, Plugin, FuzzySuggestModal } from 'obsidian';
 import { ICONS } from "./icons";
 
 export default class NerdfontPicker extends Plugin {
 	onload() {
 		this.addCommand({
 			id: 'insert-icon',
-			name: 'insert icon',
+			name: 'Insert icon',
 			checkCallback: (checking: boolean) => {
 				const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
-				if (markdownView) {
-					if (!checking) {
-						new IconSearch(this.app).open();
-					}
-					return true;
+        if (!markdownView) return false;
+				if (!checking) {
+					new IconSearch(this.app).open();
 				}
+				return true;
 			}
 		});
 	}
