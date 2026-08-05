@@ -12,6 +12,14 @@
     "icon": ""
   },
   {
+    "title": "cod-add_small",
+    "icon": ""
+  },
+  {
+    "title": "cod-agent",
+    "icon": ""
+  },
+  {
     "title": "cod-archive",
     "icon": ""
   },
@@ -70,6 +78,14 @@
   {
     "title": "cod-arrow_up",
     "icon": ""
+  },
+  {
+    "title": "cod-ask",
+    "icon": ""
+  },
+  {
+    "title": "cod-attach",
+    "icon": ""
   },
   {
     "title": "cod-azure",
@@ -144,6 +160,10 @@
     "icon": ""
   },
   {
+    "title": "cod-build",
+    "icon": ""
+  },
+  {
     "title": "cod-calendar",
     "icon": ""
   },
@@ -158,6 +178,18 @@
   {
     "title": "cod-case_sensitive",
     "icon": ""
+  },
+  {
+    "title": "cod-chat_sparkle",
+    "icon": ""
+  },
+  {
+    "title": "cod-chat_sparkle_error",
+    "icon": ""
+  },
+  {
+    "title": "cod-chat_sparkle_warning",
+    "icon": ""
   },
   {
     "title": "cod-check",
@@ -240,12 +272,20 @@
     "icon": ""
   },
   {
+    "title": "cod-claude",
+    "icon": ""
+  },
+  {
     "title": "cod-clear_all",
     "icon": ""
   },
   {
     "title": "cod-clippy",
     "icon": ""
+  },
+  {
+    "title": "cod-clockface",
+    "icon": ""
   },
   {
     "title": "cod-close",
@@ -264,6 +304,10 @@
     "icon": ""
   },
   {
+    "title": "cod-cloud_small",
+    "icon": ""
+  },
+  {
     "title": "cod-cloud_upload",
     "icon": ""
   },
@@ -272,12 +316,28 @@
     "icon": ""
   },
   {
+    "title": "cod-code_oss",
+    "icon": ""
+  },
+  {
+    "title": "cod-code_review",
+    "icon": ""
+  },
+  {
     "title": "cod-coffee",
     "icon": ""
   },
   {
     "title": "cod-collapse_all",
     "icon": ""
+  },
+  {
+    "title": "cod-collection",
+    "icon": ""
+  },
+  {
+    "title": "cod-collection_small",
+    "icon": ""
   },
   {
     "title": "cod-color_mode",
@@ -294,6 +354,14 @@
   {
     "title": "cod-comment_discussion",
     "icon": ""
+  },
+  {
+    "title": "cod-comment_discussion_quote",
+    "icon": ""
+  },
+  {
+    "title": "cod-comment_discussion_sparkle",
+    "icon": ""
   },
   {
     "title": "cod-comment_draft",
@@ -320,12 +388,60 @@
     "icon": ""
   },
   {
+    "title": "cod-copilot_blocked",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_error",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_in_progress",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_large",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_not_connected",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_snooze",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_success",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_unavailable",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_warning",
+    "icon": ""
+  },
+  {
+    "title": "cod-copilot_warning_large",
+    "icon": ""
+  },
+  {
     "title": "cod-copy",
     "icon": ""
   },
   {
+    "title": "cod-coverage",
+    "icon": ""
+  },
+  {
     "title": "cod-credit_card",
     "icon": ""
+  },
+  {
+    "title": "cod-cursor",
+    "icon": ""
   },
   {
     "title": "cod-dash",
@@ -390,6 +506,10 @@
   {
     "title": "cod-debug_breakpoint_unsupported",
     "icon": ""
+  },
+  {
+    "title": "cod-debug_connected",
+    "icon": ""
   },
   {
     "title": "cod-debug_console",
@@ -500,6 +620,10 @@
     "icon": ""
   },
   {
+    "title": "cod-diff_multiple",
+    "icon": ""
+  },
+  {
     "title": "cod-diff_removed",
     "icon": ""
   },
@@ -508,12 +632,32 @@
     "icon": ""
   },
   {
+    "title": "cod-diff_single",
+    "icon": ""
+  },
+  {
     "title": "cod-discard",
     "icon": ""
   },
   {
+    "title": "cod-download",
+    "icon": ""
+  },
+  {
     "title": "cod-edit",
     "icon": ""
+  },
+  {
+    "title": "cod-edit_code",
+    "icon": ""
+  },
+  {
+    "title": "cod-edit_session",
+    "icon": ""
+  },
+  {
+    "title": "cod-edit_sparkle",
+    "icon": ""
   },
   {
     "title": "cod-editor_layout",
@@ -526,6 +670,10 @@
   {
     "title": "cod-empty_window",
     "icon": ""
+  },
+  {
+    "title": "cod-eraser",
+    "icon": ""
   },
   {
     "title": "cod-error",
@@ -550,6 +698,10 @@
   {
     "title": "cod-extensions",
     "icon": ""
+  },
+  {
+    "title": "cod-extensions_large",
+    "icon": ""
   },
   {
     "title": "cod-eye",
@@ -596,6 +748,10 @@
     "icon": ""
   },
   {
+    "title": "cod-file_text",
+    "icon": ""
+  },
+  {
     "title": "cod-file_zip",
     "icon": ""
   },
@@ -610,6 +766,10 @@
   {
     "title": "cod-filter_filled",
     "icon": ""
+  },
+  {
+    "title": "cod-flag",
+    "icon": ""
   },
   {
     "title": "cod-flame",
@@ -644,6 +804,10 @@
     "icon": ""
   },
   {
+    "title": "cod-forward",
+    "icon": ""
+  },
+  {
     "title": "cod-game",
     "icon": ""
   },
@@ -656,8 +820,28 @@
     "icon": ""
   },
   {
+    "title": "cod-gist",
+    "icon": ""
+  },
+  {
     "title": "cod-gist_secret",
     "icon": ""
+  },
+  {
+    "title": "cod-git_branch",
+    "icon": ""
+  },
+  {
+    "title": "cod-git_branch_changes",
+    "icon": ""
+  },
+  {
+    "title": "cod-git_branch_conflicts",
+    "icon": ""
+  },
+  {
+    "title": "cod-git_branch_staged_changes",
+    "icon": ""
   },
   {
     "title": "cod-git_commit",
@@ -688,6 +872,10 @@
     "icon": ""
   },
   {
+    "title": "cod-git_pull_request_done",
+    "icon": ""
+  },
+  {
     "title": "cod-git_pull_request_draft",
     "icon": ""
   },
@@ -698,6 +886,18 @@
   {
     "title": "cod-git_pull_request_new_changes",
     "icon": ""
+  },
+  {
+    "title": "cod-git_stash",
+    "icon": ""
+  },
+  {
+    "title": "cod-git_stash_apply",
+    "icon": ""
+  },
+  {
+    "title": "cod-git_stash_pop",
+    "icon": ""
   },
   {
     "title": "cod-github",
@@ -716,12 +916,24 @@
     "icon": ""
   },
   {
+    "title": "cod-github_project",
+    "icon": ""
+  },
+  {
     "title": "cod-globe",
     "icon": ""
   },
   {
+    "title": "cod-go_to_editing_session",
+    "icon": ""
+  },
+  {
     "title": "cod-go_to_file",
     "icon": ""
+  },
+  {
+    "title": "cod-go_to_search",
+    "icon": ""
   },
   {
     "title": "cod-grabber",
@@ -784,6 +996,10 @@
     "icon": ""
   },
   {
+    "title": "cod-index_zero",
+    "icon": ""
+  },
+  {
     "title": "cod-info",
     "icon": ""
   },
@@ -826,6 +1042,18 @@
   {
     "title": "cod-key",
     "icon": ""
+  },
+  {
+    "title": "cod-keyboard_tab",
+    "icon": ""
+  },
+  {
+    "title": "cod-keyboard_tab_above",
+    "icon": ""
+  },
+  {
+    "title": "cod-keyboard_tab_below",
+    "icon": ""
   },
   {
     "title": "cod-law",
@@ -872,6 +1100,10 @@
     "icon": ""
   },
   {
+    "title": "cod-layout_panel_dock",
+    "icon": ""
+  },
+  {
     "title": "cod-layout_panel_justify",
     "icon": ""
   },
@@ -892,12 +1124,20 @@
     "icon": ""
   },
   {
+    "title": "cod-layout_sidebar_left_dock",
+    "icon": ""
+  },
+  {
     "title": "cod-layout_sidebar_left_off",
     "icon": ""
   },
   {
     "title": "cod-layout_sidebar_right",
     "icon": ""
+  },
+  {
+    "title": "cod-layout_sidebar_right_dock",
+    "icon": ""
   },
   {
     "title": "cod-layout_sidebar_right_off",
@@ -918,6 +1158,14 @@
   {
     "title": "cod-lightbulb_autofix",
     "icon": ""
+  },
+  {
+    "title": "cod-lightbulb_empty",
+    "icon": ""
+  },
+  {
+    "title": "cod-lightbulb_sparkle",
+    "icon": ""
   },
   {
     "title": "cod-link",
@@ -992,8 +1240,20 @@
     "icon": ""
   },
   {
+    "title": "cod-map_vertical",
+    "icon": ""
+  },
+  {
+    "title": "cod-map_vertical_filled",
+    "icon": ""
+  },
+  {
     "title": "cod-markdown",
     "icon": ""
+  },
+  {
+    "title": "cod-mcp",
+    "icon": ""
   },
   {
     "title": "cod-megaphone",
@@ -1010,6 +1270,10 @@
   {
     "title": "cod-merge",
     "icon": ""
+  },
+  {
+    "title": "cod-merge_into",
+    "icon": ""
   },
   {
     "title": "cod-mic",
@@ -1048,12 +1312,20 @@
     "icon": ""
   },
   {
+    "title": "cod-new_collection",
+    "icon": ""
+  },
+  {
     "title": "cod-new_file",
     "icon": ""
   },
   {
     "title": "cod-new_folder",
     "icon": ""
+  },
+  {
+    "title": "cod-new_session",
+    "icon": ""
   },
   {
     "title": "cod-newline",
@@ -1080,8 +1352,20 @@
     "icon": ""
   },
   {
+    "title": "cod-open_in_product",
+    "icon": ""
+  },
+  {
+    "title": "cod-open_in_window",
+    "icon": ""
+  },
+  {
     "title": "cod-open_preview",
     "icon": ""
+  },
+  {
+    "title": "cod-openai",
+    "icon": ""
   },
   {
     "title": "cod-organization",
@@ -1106,6 +1390,10 @@
   {
     "title": "cod-pass_filled",
     "icon": ""
+  },
+  {
+    "title": "cod-percentage",
+    "icon": ""
   },
   {
     "title": "cod-person",
@@ -1168,12 +1456,20 @@
     "icon": ""
   },
   {
+    "title": "cod-python",
+    "icon": ""
+  },
+  {
     "title": "cod-question",
     "icon": ""
   },
   {
     "title": "cod-quote",
     "icon": ""
+  },
+  {
+    "title": "cod-quotes",
+    "icon": ""
   },
   {
     "title": "cod-radio_tower",
@@ -1224,6 +1520,14 @@
     "icon": ""
   },
   {
+    "title": "cod-remove_small",
+    "icon": ""
+  },
+  {
+    "title": "cod-rename",
+    "icon": ""
+  },
+  {
     "title": "cod-replace",
     "icon": ""
   },
@@ -1252,6 +1556,10 @@
     "icon": ""
   },
   {
+    "title": "cod-repo_pinned",
+    "icon": ""
+  },
+  {
     "title": "cod-repo_pull",
     "icon": ""
   },
@@ -1260,12 +1568,20 @@
     "icon": ""
   },
   {
+    "title": "cod-repo_selected",
+    "icon": ""
+  },
+  {
     "title": "cod-report",
     "icon": ""
   },
   {
     "title": "cod-request_changes",
     "icon": ""
+  },
+  {
+    "title": "cod-robot",
+    "icon": ""
   },
   {
     "title": "cod-rocket",
@@ -1296,12 +1612,24 @@
     "icon": ""
   },
   {
+    "title": "cod-run_all_coverage",
+    "icon": ""
+  },
+  {
     "title": "cod-run_below",
     "icon": ""
   },
   {
+    "title": "cod-run_coverage",
+    "icon": ""
+  },
+  {
     "title": "cod-run_errors",
     "icon": ""
+  },
+  {
+    "title": "cod-run_with_deps",
+    "icon": ""
   },
   {
     "title": "cod-save",
@@ -1314,6 +1642,10 @@
   {
     "title": "cod-save_as",
     "icon": ""
+  },
+  {
+    "title": "cod-screen_cut",
+    "icon": ""
   },
   {
     "title": "cod-screen_full",
@@ -1332,12 +1664,24 @@
     "icon": ""
   },
   {
+    "title": "cod-search_large",
+    "icon": ""
+  },
+  {
+    "title": "cod-search_sparkle",
+    "icon": ""
+  },
+  {
     "title": "cod-search_stop",
     "icon": ""
   },
   {
     "title": "cod-send",
     "icon": ""
+  },
+  {
+    "title": "cod-send_to_remote_agent",
+    "icon": ""
   },
   {
     "title": "cod-server",
@@ -1352,12 +1696,20 @@
     "icon": ""
   },
   {
+    "title": "cod-session_in_progress",
+    "icon": ""
+  },
+  {
     "title": "cod-settings",
     "icon": ""
   },
   {
     "title": "cod-settings_gear",
     "icon": ""
+  },
+  {
+    "title": "cod-share",
+    "icon": ""
   },
   {
     "title": "cod-shield",
@@ -1370,6 +1722,10 @@
   {
     "title": "cod-sign_out",
     "icon": ""
+  },
+  {
+    "title": "cod-skip",
+    "icon": ""
   },
   {
     "title": "cod-smiley",
@@ -1390,6 +1746,10 @@
   {
     "title": "cod-sparkle",
     "icon": ""
+  },
+  {
+    "title": "cod-sparkle_filled",
+    "icon": ""
   },
   {
     "title": "cod-split_horizontal",
@@ -1418,6 +1778,14 @@
   {
     "title": "cod-stop_circle",
     "icon": ""
+  },
+  {
+    "title": "cod-strikethrough",
+    "icon": ""
+  },
+  {
+    "title": "cod-surround_with",
+    "icon": ""
   },
   {
     "title": "cod-symbol_array",
@@ -1474,6 +1842,10 @@
   {
     "title": "cod-symbol_method",
     "icon": ""
+  },
+  {
+    "title": "cod-symbol_method_arrow",
+    "icon": ""
   },
   {
     "title": "cod-symbol_misc",
@@ -1564,6 +1936,10 @@
     "icon": ""
   },
   {
+    "title": "cod-terminal_git_bash",
+    "icon": ""
+  },
+  {
     "title": "cod-terminal_linux",
     "icon": ""
   },
@@ -1582,6 +1958,10 @@
   {
     "title": "cod-text_size",
     "icon": ""
+  },
+  {
+    "title": "cod-thinking",
+    "icon": ""
   },
   {
     "title": "cod-three_bars",
@@ -1644,6 +2024,10 @@
     "icon": ""
   },
   {
+    "title": "cod-unarchive",
+    "icon": ""
+  },
+  {
     "title": "cod-unfold",
     "icon": ""
   },
@@ -1700,8 +2084,20 @@
     "icon": ""
   },
   {
+    "title": "cod-vm_small",
+    "icon": ""
+  },
+  {
     "title": "cod-vr",
     "icon": ""
+  },
+  {
+    "title": "cod-vscode",
+    "icon": ""
+  },
+  {
+    "title": "cod-vscode_insiders",
+    "icon": ""
   },
   {
     "title": "cod-wand",
@@ -1728,6 +2124,10 @@
     "icon": ""
   },
   {
+    "title": "cod-window_active",
+    "icon": ""
+  },
+  {
     "title": "cod-word_wrap",
     "icon": ""
   },
@@ -1742,6 +2142,14 @@
   {
     "title": "cod-workspace_untrusted",
     "icon": ""
+  },
+  {
+    "title": "cod-worktree",
+    "icon": ""
+  },
+  {
+    "title": "cod-worktree_small",
+    "icon": ""
   },
   {
     "title": "cod-zoom_in",
@@ -1786,6 +2194,10 @@
   {
     "title": "custom-crystal",
     "icon": ""
+  },
+  {
+    "title": "custom-css",
+    "icon": ""
   },
   {
     "title": "custom-default",
@@ -1868,6 +2280,10 @@
     "icon": ""
   },
   {
+    "title": "custom-obsidian",
+    "icon": ""
+  },
+  {
     "title": "custom-orgmode",
     "icon": ""
   },
@@ -1916,12 +2332,28 @@
     "icon": ""
   },
   {
+    "title": "custom-wireshark",
+    "icon": ""
+  },
+  {
+    "title": "custom-zsh",
+    "icon": ""
+  },
+  {
     "title": "dev-aarch64",
     "icon": ""
   },
   {
     "title": "dev-adonisjs",
     "icon": ""
+  },
+  {
+    "title": "dev-aerospike",
+    "icon": ""
+  },
+  {
+    "title": "dev-aframe",
+    "icon": ""
   },
   {
     "title": "dev-aftereffects",
@@ -1934,6 +2366,10 @@
   {
     "title": "dev-algolia",
     "icon": ""
+  },
+  {
+    "title": "dev-almalinux",
+    "icon": ""
   },
   {
     "title": "dev-alpinejs",
@@ -1972,6 +2408,10 @@
     "icon": ""
   },
   {
+    "title": "dev-ansys",
+    "icon": ""
+  },
+  {
     "title": "dev-antdesign",
     "icon": ""
   },
@@ -1992,8 +2432,16 @@
     "icon": ""
   },
   {
+    "title": "dev-apex",
+    "icon": ""
+  },
+  {
     "title": "dev-apl",
     "icon": ""
+  },
+  {
+    "title": "dev-apollographql",
+    "icon": ""
   },
   {
     "title": "dev-appcelerator",
@@ -2018,6 +2466,10 @@
   {
     "title": "dev-argocd",
     "icon": ""
+  },
+  {
+    "title": "dev-artixlinux",
+    "icon": ""
   },
   {
     "title": "dev-astro",
@@ -2056,6 +2508,10 @@
     "icon": ""
   },
   {
+    "title": "dev-babylonjs",
+    "icon": ""
+  },
+  {
     "title": "dev-backbone",
     "icon": ""
   },
@@ -2076,12 +2532,24 @@
     "icon": ""
   },
   {
+    "title": "dev-bazel",
+    "icon": ""
+  },
+  {
     "title": "dev-beats",
     "icon": ""
   },
   {
     "title": "dev-behance",
     "icon": ""
+  },
+  {
+    "title": "dev-bevyengine",
+    "icon": ""
+  },
+  {
+    "title": "dev-biome",
+    "icon": ""
   },
   {
     "title": "dev-bitbucket",
@@ -2156,6 +2624,14 @@
     "icon": ""
   },
   {
+    "title": "dev-chakraui",
+    "icon": ""
+  },
+  {
+    "title": "dev-chartjs",
+    "icon": ""
+  },
+  {
     "title": "dev-chrome",
     "icon": ""
   },
@@ -2166,6 +2642,10 @@
   {
     "title": "dev-clarity",
     "icon": ""
+  },
+  {
+    "title": "dev-clickhouse",
+    "icon": ""
   },
   {
     "title": "dev-clion",
@@ -2192,8 +2672,16 @@
     "icon": ""
   },
   {
+    "title": "dev-cloudrun",
+    "icon": ""
+  },
+  {
     "title": "dev-cmake",
     "icon": ""
+  },
+  {
+    "title": "dev-cobol",
+    "icon": ""
   },
   {
     "title": "dev-codeac",
@@ -2248,6 +2736,10 @@
     "icon": ""
   },
   {
+    "title": "dev-cpanel",
+    "icon": ""
+  },
+  {
     "title": "dev-cplusplus",
     "icon": ""
   },
@@ -2288,12 +2780,20 @@
     "icon": ""
   },
   {
+    "title": "dev-datadog",
+    "icon": ""
+  },
+  {
     "title": "dev-datagrip",
     "icon": ""
   },
   {
     "title": "dev-dataspell",
     "icon": ""
+  },
+  {
+    "title": "dev-datatables",
+    "icon": ""
   },
   {
     "title": "dev-dbeaver",
@@ -2304,8 +2804,16 @@
     "icon": ""
   },
   {
+    "title": "dev-delphi",
+    "icon": ""
+  },
+  {
     "title": "dev-denojs",
     "icon": ""
+  },
+  {
+    "title": "dev-detaspace",
+    "icon": ""
   },
   {
     "title": "dev-devicon",
@@ -2318,6 +2826,10 @@
   {
     "title": "dev-digitalocean",
     "icon": ""
+  },
+  {
+    "title": "dev-discloud",
+    "icon": ""
   },
   {
     "title": "dev-discordjs",
@@ -2352,6 +2864,10 @@
     "icon": ""
   },
   {
+    "title": "dev-dovecot",
+    "icon": ""
+  },
+  {
     "title": "dev-dreamweaver",
     "icon": ""
   },
@@ -2368,8 +2884,20 @@
     "icon": ""
   },
   {
+    "title": "dev-duckdb",
+    "icon": ""
+  },
+  {
+    "title": "dev-dyalog",
+    "icon": ""
+  },
+  {
     "title": "dev-dynamodb",
     "icon": ""
+  },
+  {
+    "title": "dev-dynatrace",
+    "icon": ""
   },
   {
     "title": "dev-eclipse",
@@ -2412,6 +2940,10 @@
     "icon": ""
   },
   {
+    "title": "dev-entityframeworkcore",
+    "icon": ""
+  },
+  {
     "title": "dev-envoy",
     "icon": ""
   },
@@ -2422,6 +2954,10 @@
   {
     "title": "dev-eslint",
     "icon": ""
+  },
+  {
+    "title": "dev-expo",
+    "icon": ""
   },
   {
     "title": "dev-express",
@@ -2452,8 +2988,16 @@
     "icon": ""
   },
   {
+    "title": "dev-fiber",
+    "icon": ""
+  },
+  {
     "title": "dev-figma",
     "icon": ""
+  },
+  {
+    "title": "dev-filamentphp",
+    "icon": ""
   },
   {
     "title": "dev-filezilla",
@@ -2462,6 +3006,10 @@
   {
     "title": "dev-firebase",
     "icon": ""
+  },
+  {
+    "title": "dev-firebird",
+    "icon": ""
   },
   {
     "title": "dev-firefox",
@@ -2474,6 +3022,10 @@
   {
     "title": "dev-flutter",
     "icon": ""
+  },
+  {
+    "title": "dev-forgejo",
+    "icon": ""
   },
   {
     "title": "dev-fortran",
@@ -2494,6 +3046,14 @@
   {
     "title": "dev-fsharp",
     "icon": ""
+  },
+  {
+    "title": "dev-fusion",
+    "icon": ""
+  },
+  {
+    "title": "dev-gardener",
+    "icon": ""
   },
   {
     "title": "dev-gatling",
@@ -2576,6 +3136,10 @@
     "icon": ""
   },
   {
+    "title": "dev-gitkraken",
+    "icon": ""
+  },
+  {
     "title": "dev-gitlab",
     "icon": ""
   },
@@ -2586,6 +3150,14 @@
   {
     "title": "dev-gitter",
     "icon": ""
+  },
+  {
+    "title": "dev-gleam",
+    "icon": ""
+  },
+  {
+    "title": "dev-glitch",
+    "icon": ""
   },
   {
     "title": "dev-gnu",
@@ -2610,6 +3182,10 @@
   {
     "title": "dev-googlecloud",
     "icon": ""
+  },
+  {
+    "title": "dev-googlecolab",
+    "icon": ""
   },
   {
     "title": "dev-gradle",
@@ -2652,6 +3228,10 @@
     "icon": ""
   },
   {
+    "title": "dev-harbor",
+    "icon": ""
+  },
+  {
     "title": "dev-hardhat",
     "icon": ""
   },
@@ -2684,12 +3264,24 @@
     "icon": ""
   },
   {
+    "title": "dev-hoppscotch",
+    "icon": ""
+  },
+  {
     "title": "dev-html5",
     "icon": ""
   },
   {
+    "title": "dev-htmx",
+    "icon": ""
+  },
+  {
     "title": "dev-hugo",
     "icon": ""
+  },
+  {
+    "title": "dev-hyperv",
+    "icon": ""
   },
   {
     "title": "dev-ie",
@@ -2702,6 +3294,10 @@
   {
     "title": "dev-illustrator",
     "icon": ""
+  },
+  {
+    "title": "dev-inertiajs",
+    "icon": ""
   },
   {
     "title": "dev-influxdb",
@@ -2780,6 +3376,10 @@
     "icon": ""
   },
   {
+    "title": "dev-jhipster",
+    "icon": ""
+  },
+  {
     "title": "dev-jira",
     "icon": ""
   },
@@ -2828,6 +3428,14 @@
     "icon": ""
   },
   {
+    "title": "dev-kaldi",
+    "icon": ""
+  },
+  {
+    "title": "dev-kalilinux",
+    "icon": ""
+  },
+  {
     "title": "dev-karatelabs",
     "icon": ""
   },
@@ -2872,6 +3480,10 @@
     "icon": ""
   },
   {
+    "title": "dev-kubeflow",
+    "icon": ""
+  },
+  {
     "title": "dev-kubernetes",
     "icon": ""
   },
@@ -2880,16 +3492,32 @@
     "icon": ""
   },
   {
+    "title": "dev-laminas",
+    "icon": ""
+  },
+  {
     "title": "dev-laravel",
     "icon": ""
+  },
+  {
+    "title": "dev-laraveljetstream",
+    "icon": ""
   },
   {
     "title": "dev-latex",
     "icon": ""
   },
   {
+    "title": "dev-leetcode",
+    "icon": ""
+  },
+  {
     "title": "dev-less",
     "icon": ""
+  },
+  {
+    "title": "dev-libgdx",
+    "icon": ""
   },
   {
     "title": "dev-linkedin",
@@ -2898,6 +3526,10 @@
   {
     "title": "dev-linux",
     "icon": ""
+  },
+  {
+    "title": "dev-linuxmint",
+    "icon": ""
   },
   {
     "title": "dev-liquibase",
@@ -2920,6 +3552,10 @@
     "icon": ""
   },
   {
+    "title": "dev-love2d",
+    "icon": ""
+  },
+  {
     "title": "dev-lua",
     "icon": ""
   },
@@ -2930,6 +3566,10 @@
   {
     "title": "dev-magento",
     "icon": ""
+  },
+  {
+    "title": "dev-mapbox",
+    "icon": ""
   },
   {
     "title": "dev-mariadb",
@@ -2956,12 +3596,24 @@
     "icon": ""
   },
   {
+    "title": "dev-mattermost",
+    "icon": ""
+  },
+  {
     "title": "dev-maven",
     "icon": ""
   },
   {
     "title": "dev-maya",
     "icon": ""
+  },
+  {
+    "title": "dev-memcached",
+    "icon": ""
+  },
+  {
+    "title": "dev-mercurial",
+    "icon": ""
   },
   {
     "title": "dev-meteor",
@@ -3008,6 +3660,10 @@
     "icon": ""
   },
   {
+    "title": "dev-monogame",
+    "icon": ""
+  },
+  {
     "title": "dev-moodle",
     "icon": ""
   },
@@ -3032,6 +3688,10 @@
     "icon": ""
   },
   {
+    "title": "dev-nats",
+    "icon": ""
+  },
+  {
     "title": "dev-neo4j",
     "icon": ""
   },
@@ -3044,6 +3704,14 @@
     "icon": ""
   },
   {
+    "title": "dev-netbeans",
+    "icon": ""
+  },
+  {
+    "title": "dev-netbox",
+    "icon": ""
+  },
+  {
     "title": "dev-netlify",
     "icon": ""
   },
@@ -3052,12 +3720,20 @@
     "icon": ""
   },
   {
+    "title": "dev-newrelic",
+    "icon": ""
+  },
+  {
     "title": "dev-nextjs",
     "icon": ""
   },
   {
     "title": "dev-nginx",
     "icon": ""
+  },
+  {
+    "title": "dev-ngrok",
+    "icon": ""
   },
   {
     "title": "dev-ngrx",
@@ -3092,6 +3768,10 @@
     "icon": ""
   },
   {
+    "title": "dev-nodered",
+    "icon": ""
+  },
+  {
     "title": "dev-nodewebkit",
     "icon": ""
   },
@@ -3112,12 +3792,20 @@
     "icon": ""
   },
   {
+    "title": "dev-npss",
+    "icon": ""
+  },
+  {
     "title": "dev-nuget",
     "icon": ""
   },
   {
     "title": "dev-numpy",
     "icon": ""
+  },
+  {
+    "title": "dev-nuxt",
+    "icon": ""
   },
   {
     "title": "dev-nuxtjs",
@@ -3200,6 +3888,10 @@
     "icon": ""
   },
   {
+    "title": "dev-passport",
+    "icon": ""
+  },
+  {
     "title": "dev-perl",
     "icon": ""
   },
@@ -3232,12 +3924,20 @@
     "icon": ""
   },
   {
+    "title": "dev-pixijs",
+    "icon": ""
+  },
+  {
     "title": "dev-playwright",
     "icon": ""
   },
   {
     "title": "dev-plotly",
     "icon": ""
+  },
+  {
+    "title": "dev-pm2",
+    "icon": ""
   },
   {
     "title": "dev-pnpm",
@@ -3280,12 +3980,20 @@
     "icon": ""
   },
   {
+    "title": "dev-primeng",
+    "icon": ""
+  },
+  {
     "title": "dev-prisma",
     "icon": ""
   },
   {
     "title": "dev-processing",
     "icon": ""
+  },
+  {
+    "title": "dev-processwire",
+    "icon": ""
   },
   {
     "title": "dev-prolog",
@@ -3298,6 +4006,14 @@
   {
     "title": "dev-protractor",
     "icon": ""
+  },
+  {
+    "title": "dev-proxmox",
+    "icon": ""
+  },
+  {
+    "title": "dev-pug",
+    "icon": ""
   },
   {
     "title": "dev-pulsar",
@@ -3352,6 +4068,10 @@
     "icon": ""
   },
   {
+    "title": "dev-qtest",
+    "icon": ""
+  },
+  {
     "title": "dev-quarkus",
     "icon": ""
   },
@@ -3370,6 +4090,14 @@
   {
     "title": "dev-rabbitmq",
     "icon": ""
+  },
+  {
+    "title": "dev-racket",
+    "icon": ""
+  },
+  {
+    "title": "dev-radstudio",
+    "icon": ""
   },
   {
     "title": "dev-rails",
@@ -3398,6 +4126,10 @@
   {
     "title": "dev-reactbootstrap",
     "icon": ""
+  },
+  {
+    "title": "dev-reactnative",
+    "icon": ""
   },
   {
     "title": "dev-reactnavigation",
@@ -3432,6 +4164,14 @@
     "icon": ""
   },
   {
+    "title": "dev-reflex",
+    "icon": ""
+  },
+  {
+    "title": "dev-remix",
+    "icon": ""
+  },
+  {
     "title": "dev-renpy",
     "icon": ""
   },
@@ -3442,6 +4182,10 @@
   {
     "title": "dev-requirejs",
     "icon": ""
+  },
+  {
+    "title": "dev-rexx",
+    "icon": ""
   },
   {
     "title": "dev-rider",
@@ -3580,12 +4324,20 @@
     "icon": ""
   },
   {
+    "title": "dev-sourceengine",
+    "icon": ""
+  },
+  {
     "title": "dev-sourcetree",
     "icon": ""
   },
   {
     "title": "dev-spack",
     "icon": ""
+  },
+  {
+    "title": "dev-spicedb",
+    "icon": ""
   },
   {
     "title": "dev-splunk",
@@ -3620,6 +4372,10 @@
     "icon": ""
   },
   {
+    "title": "dev-stackblitz",
+    "icon": ""
+  },
+  {
     "title": "dev-stackoverflow",
     "icon": ""
   },
@@ -3628,12 +4384,20 @@
     "icon": ""
   },
   {
+    "title": "dev-stenciljs",
+    "icon": ""
+  },
+  {
     "title": "dev-storybook",
     "icon": ""
   },
   {
     "title": "dev-streamlit",
     "icon": ""
+  },
+  {
+    "title": "dev-styledcomponents",
+    "icon": ""
   },
   {
     "title": "dev-stylus",
@@ -3648,12 +4412,24 @@
     "icon": ""
   },
   {
+    "title": "dev-sulu",
+    "icon": ""
+  },
+  {
     "title": "dev-supabase",
     "icon": ""
   },
   {
+    "title": "dev-surrealdb",
+    "icon": ""
+  },
+  {
     "title": "dev-svelte",
     "icon": ""
+  },
+  {
+    "title": "dev-svgo",
+    "icon": ""
   },
   {
     "title": "dev-swagger",
@@ -3680,8 +4456,16 @@
     "icon": ""
   },
   {
+    "title": "dev-talos",
+    "icon": ""
+  },
+  {
     "title": "dev-tauri",
     "icon": ""
+  },
+  {
+    "title": "dev-teleport",
+    "icon": ""
   },
   {
     "title": "dev-tensorflow",
@@ -3694,6 +4478,10 @@
   {
     "title": "dev-terraform",
     "icon": ""
+  },
+  {
+    "title": "dev-terramate",
+    "icon": ""
   },
   {
     "title": "dev-tex",
@@ -3712,8 +4500,16 @@
     "icon": ""
   },
   {
+    "title": "dev-thymeleaf",
+    "icon": ""
+  },
+  {
     "title": "dev-titaniumsdk",
     "icon": ""
+  },
+  {
+    "title": "dev-tmux",
+    "icon": ""
   },
   {
     "title": "dev-tomcat",
@@ -3746,6 +4542,14 @@
   {
     "title": "dev-trpc",
     "icon": ""
+  },
+  {
+    "title": "dev-turbo",
+    "icon": ""
+  },
+  {
+    "title": "dev-twilio",
+    "icon": ""
   },
   {
     "title": "dev-twitter",
@@ -3796,6 +4600,10 @@
     "icon": ""
   },
   {
+    "title": "dev-vaadin",
+    "icon": ""
+  },
+  {
     "title": "dev-vagrant",
     "icon": ""
   },
@@ -3806,6 +4614,10 @@
   {
     "title": "dev-vault",
     "icon": ""
+  },
+  {
+    "title": "dev-veevalidate",
+    "icon": ""
   },
   {
     "title": "dev-vercel",
@@ -3848,6 +4660,10 @@
     "icon": ""
   },
   {
+    "title": "dev-vscodium",
+    "icon": ""
+  },
+  {
     "title": "dev-vsphere",
     "icon": ""
   },
@@ -3864,16 +4680,32 @@
     "icon": ""
   },
   {
+    "title": "dev-vulkan",
+    "icon": ""
+  },
+  {
     "title": "dev-vyper",
     "icon": ""
+  },
+  {
+    "title": "dev-waku",
+    "icon": ""
   },
   {
     "title": "dev-wasm",
     "icon": ""
   },
   {
+    "title": "dev-web3js",
+    "icon": ""
+  },
+  {
     "title": "dev-webflow",
     "icon": ""
+  },
+  {
+    "title": "dev-webgpu",
+    "icon": ""
   },
   {
     "title": "dev-weblate",
@@ -3894,6 +4726,10 @@
   {
     "title": "dev-windows11",
     "icon": ""
+  },
+  {
+    "title": "dev-wolfram",
+    "icon": ""
   },
   {
     "title": "dev-woocommerce",
@@ -3946,6 +4782,62 @@
   {
     "title": "dev-zig",
     "icon": ""
+  },
+  {
+    "title": "dev-zsh",
+    "icon": ""
+  },
+  {
+    "title": "dev-zustand",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_empty_left",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_empty_mid",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_empty_right",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_full_left",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_full_mid",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_full_right",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_spinner_1",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_spinner_2",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_spinner_3",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_spinner_4",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_spinner_5",
+    "icon": ""
+  },
+  {
+    "title": "extra-progress_spinner_6",
+    "icon": ""
   },
   {
     "title": "fa-500px",
@@ -10908,6 +11800,10 @@
     "icon": ""
   },
   {
+    "title": "fa-volume",
+    "icon": ""
+  },
+  {
     "title": "fa-volume_control_phone",
     "icon": ""
   },
@@ -11984,6 +12880,10 @@
     "icon": ""
   },
   {
+    "title": "linux-cachyos",
+    "icon": ""
+  },
+  {
     "title": "linux-centos",
     "icon": ""
   },
@@ -12050,6 +12950,10 @@
   {
     "title": "linux-ferris",
     "icon": ""
+  },
+  {
+    "title": "linux-ffmpeg",
+    "icon": ""
   },
   {
     "title": "linux-flathub",
@@ -12276,6 +13180,10 @@
     "icon": ""
   },
   {
+    "title": "linux-openwrt",
+    "icon": ""
+  },
+  {
     "title": "linux-osh",
     "icon": ""
   },
@@ -12426,6 +13334,10 @@
   {
     "title": "linux-wikimedia",
     "icon": ""
+  },
+  {
+    "title": "linux-wireguard",
+    "icon": ""
   },
   {
     "title": "linux-xerolinux",
@@ -18096,6 +19008,14 @@
     "icon": "󱀝"
   },
   {
+    "title": "md-cards_heart",
+    "icon": "󰣐"
+  },
+  {
+    "title": "md-cards_heart_outline",
+    "icon": "󱢠"
+  },
+  {
     "title": "md-cards_outline",
     "icon": "󰘹"
   },
@@ -19068,6 +19988,10 @@
     "icon": "󱐛"
   },
   {
+    "title": "md-circle",
+    "icon": "󰝥"
+  },
+  {
     "title": "md-circle_box",
     "icon": "󱗜"
   },
@@ -19114,6 +20038,10 @@
   {
     "title": "md-circle_opacity",
     "icon": "󱡓"
+  },
+  {
+    "title": "md-circle_outline",
+    "icon": "󰝦"
   },
   {
     "title": "md-circle_slice_1",
@@ -28668,6 +29596,10 @@
     "icon": "󰗽"
   },
   {
+    "title": "md-logout_variant_2",
+    "icon": "󰗼"
+  },
+  {
     "title": "md-longitude",
     "icon": "󰽚"
   },
@@ -29884,6 +30816,10 @@
     "icon": "󱖺"
   },
   {
+    "title": "md-mountains",
+    "icon": "󰔉"
+  },
+  {
     "title": "md-mouse",
     "icon": "󰍽"
   },
@@ -30224,6 +31160,10 @@
     "icon": "󰎇"
   },
   {
+    "title": "md-music_note_2",
+    "icon": "󰎈"
+  },
+  {
     "title": "md-music_note_bluetooth",
     "icon": "󰗾"
   },
@@ -30338,6 +31278,10 @@
   {
     "title": "md-navigation_outline",
     "icon": "󱘇"
+  },
+  {
+    "title": "md-navigation_variant",
+    "icon": "󱣰"
   },
   {
     "title": "md-navigation_variant_outline",
@@ -30700,6 +31644,10 @@
     "icon": "󰎠"
   },
   {
+    "title": "md-numeric_0",
+    "icon": "󰬹"
+  },
+  {
     "title": "md-numeric_0_box",
     "icon": "󰎡"
   },
@@ -30714,6 +31662,14 @@
   {
     "title": "md-numeric_0_box_outline",
     "icon": "󰎣"
+  },
+  {
+    "title": "md-numeric_0_circle",
+    "icon": "󰲞"
+  },
+  {
+    "title": "md-numeric_0_circle_outline",
+    "icon": "󰲟"
   },
   {
     "title": "md-numeric_1",
@@ -33004,6 +33960,10 @@
     "icon": "󰻁"
   },
   {
+    "title": "md-radiobox_blank",
+    "icon": "󰐽"
+  },
+  {
     "title": "md-radiobox_marked",
     "icon": "󰐾"
   },
@@ -33720,6 +34680,14 @@
     "icon": "󱪺"
   },
   {
+    "title": "md-roman_numeral_1",
+    "icon": "󱂈"
+  },
+  {
+    "title": "md-roman_numeral_10",
+    "icon": "󱂑"
+  },
+  {
     "title": "md-roman_numeral_2",
     "icon": "󱂉"
   },
@@ -33730,6 +34698,10 @@
   {
     "title": "md-roman_numeral_4",
     "icon": "󱂋"
+  },
+  {
+    "title": "md-roman_numeral_5",
+    "icon": "󱂌"
   },
   {
     "title": "md-roman_numeral_6",
@@ -35014,6 +35986,10 @@
   {
     "title": "md-sitemap_outline",
     "icon": "󱦜"
+  },
+  {
+    "title": "md-size_l",
+    "icon": "󱎦"
   },
   {
     "title": "md-size_m",
