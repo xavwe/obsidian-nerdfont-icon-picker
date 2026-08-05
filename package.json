@@ -8,10 +8,10 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "dev": "node esbuild.config.mjs",
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mts",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mts production",
     "lint": "eslint .",
-    "format": "oxfmt ./src ./package.json ./versions.json ./eslint.config.mts ./esbuild.config.mjs ./manifest.json"
+    "format": "oxfmt ./src ./package.json ./versions.json ./eslint.config.mts ./esbuild.config.mts ./manifest.json"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
