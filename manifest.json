@@ -2,7 +2,7 @@
   "id": "nerdfont-icon-picker",
   "name": "NerdFont Icon Picker",
   "version": "1.0.2",
-  "minAppVersion": "0.15.0",
+  "minAppVersion": "1.0.3",
   "description": "Search and insert nerdfont icons.",
   "author": "Xaver Wenhart",
   "authorUrl": "https://www.xavwe.dev",
