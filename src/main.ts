@@ -29,7 +29,7 @@ export class IconSearch extends FuzzySuggestModal<Icon> {
   }
 
   getItemText(icon: Icon): string {
-    return icon.title + " - " + icon.icon;
+    return icon.icon + "  " + icon.title;
   }
 
   onChooseItem(icon: Icon, evt: MouseEvent | KeyboardEvent) {
