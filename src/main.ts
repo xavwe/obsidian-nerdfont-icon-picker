@@ -1,26 +1,26 @@
-import { MarkdownView, Plugin, FuzzySuggestModal } from 'obsidian';
+import { MarkdownView, Plugin, FuzzySuggestModal } from "obsidian";
 import { ICONS } from "./icons";
 
 export default class NerdfontPicker extends Plugin {
-	onload() {
-		this.addCommand({
-			id: 'insert-icon',
-			name: 'Insert icon',
-			checkCallback: (checking: boolean) => {
-				const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
+  onload() {
+    this.addCommand({
+      id: "insert-icon",
+      name: "Insert icon",
+      checkCallback: (checking: boolean) => {
+        const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
         if (!markdownView) return false;
-				if (!checking) {
-					new IconSearch(this.app).open();
-				}
-				return true;
-			}
-		});
-	}
+        if (!checking) {
+          new IconSearch(this.app).open();
+        }
+        return true;
+      },
+    });
+  }
 }
 
 interface Icon {
-	title: string;
-	icon: string;
+  title: string;
+  icon: string;
 }
 
 export class IconSearch extends FuzzySuggestModal<Icon> {
@@ -33,9 +33,9 @@ export class IconSearch extends FuzzySuggestModal<Icon> {
   }
 
   onChooseItem(icon: Icon, evt: MouseEvent | KeyboardEvent) {
-	const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
-	if (markdownView) {
-		markdownView.editor.replaceSelection(icon.icon);
-	}
+    const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
+    if (markdownView) {
+      markdownView.editor.replaceSelection(icon.icon);
+    }
   }
 }

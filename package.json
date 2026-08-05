@@ -1,29 +1,29 @@
 {
-	"name": "nerdfont-icon-picker",
-	"version": "1.0.2",
-	"description": "Search and insert nerdfont icons.",
-	"main": "main.js",
-	"type": "module",
-	"scripts": {
-		"dev": "node esbuild.config.mjs",
-		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
-		"lint": "eslint .",
-		"format": "oxfmt ./src ./package.json ./versions.json ./eslint.config.mts ./esbuild.config.mjs ./manifest.json"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
-	"devDependencies": {
-		"@eslint/js": "^9.39.4",
-		"@types/node": "^22.15.17",
-		"esbuild": "0.25.5",
-		"eslint": "^9.39.4",
-		"eslint-plugin-obsidianmd": "^0.4.0",
-		"globals": "^17.6.0",
-		"jiti": "^2.6.1",
-		"obsidian": "latest",
-		"typescript": "^5.8.3",
-		"typescript-eslint": "^8.59.1",
-		"oxfmt": "^0.62.0"
-	}
+  "name": "nerdfont-icon-picker",
+  "version": "1.0.2",
+  "description": "Search and insert nerdfont icons.",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "lint": "eslint .",
+    "format": "oxfmt ./src ./package.json ./versions.json ./eslint.config.mts ./esbuild.config.mjs ./manifest.json"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/node": "^22.15.17",
+    "esbuild": "0.25.5",
+    "eslint": "^9.39.4",
+    "eslint-plugin-obsidianmd": "^0.4.0",
+    "globals": "^17.6.0",
+    "jiti": "^2.6.1",
+    "obsidian": "latest",
+    "oxfmt": "^0.62.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.59.1"
+  }
 }
