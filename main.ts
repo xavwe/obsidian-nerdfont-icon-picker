@@ -43042,9 +43042,12 @@ export class IconSearch extends FuzzySuggestModal<Icon> {
   }
 
   onChooseItem(icon: Icon, evt: MouseEvent | KeyboardEvent) {
-	this.app.workspace.getActiveViewOfType(MarkdownView).editor.replaceSelection(
-		icon.icon,
-		this.app.workspace.getActiveViewOfType(MarkdownView).editor.getCursor()
-	);
+	const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
+	if (markdownView) {
+		markdownView.editor.replaceSelection(
+			icon.icon,
+			// markdownView.editor.getCursor()
+		);
+	}
   }
 }
