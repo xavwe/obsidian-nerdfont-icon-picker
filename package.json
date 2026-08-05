@@ -9,7 +9,7 @@
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mts",
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mts production",
+    "build": "./scripts/generate-icons.sh > src/icons.json && tsc -noEmit -skipLibCheck && node esbuild.config.mts production",
     "lint": "eslint .",
     "format": "oxfmt ./src ./package.json ./versions.json ./eslint.config.mts ./esbuild.config.mts ./manifest.json"
   },

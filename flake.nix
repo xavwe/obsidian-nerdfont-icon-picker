@@ -8,6 +8,10 @@
     devShells."x86_64-linux".default = inputs.nixpkgs.legacyPackages."x86_64-linux".mkShell {
       packages = with inputs.nixpkgs.legacyPackages."x86_64-linux"; [
         nodejs
+
+        # for scripts
+        jq
+        git
       ];
     };
   };
