@@ -1,5 +1,5 @@
 import { MarkdownView, Plugin, FuzzySuggestModal } from "obsidian";
-import { ICONS } from "./icons";
+import ICONS from "./icons.json";
 
 export default class NerdfontPicker extends Plugin {
   onload() {

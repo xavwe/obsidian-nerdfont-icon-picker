@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"inlineSourceMap": true,
+    "resolveJsonModule": true,
 		"inlineSources": true,
 		"module": "ESNext",
 		"target": "ES2021",
