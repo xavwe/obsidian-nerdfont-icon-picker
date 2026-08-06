@@ -1,6 +1,11 @@
 import { MarkdownView, Plugin, FuzzySuggestModal } from "obsidian";
 import ICONS from "./icons.json";
 
+interface Icon {
+  title: string;
+  icon: string;
+}
+
 export default class NerdfontPicker extends Plugin {
   onload() {
     this.addCommand({
@@ -18,11 +23,6 @@ export default class NerdfontPicker extends Plugin {
   }
 }
 
-interface Icon {
-  title: string;
-  icon: string;
-}
-
 export class IconSearch extends FuzzySuggestModal<Icon> {
   getItems(): Icon[] {
     return ICONS;
@@ -32,7 +32,7 @@ export class IconSearch extends FuzzySuggestModal<Icon> {
     return icon.icon + "  " + icon.title;
   }
 
-  onChooseItem(icon: Icon, evt: MouseEvent | KeyboardEvent) {
+  onChooseItem(icon: Icon, _evt: MouseEvent | KeyboardEvent) {
     const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
     if (markdownView) {
       markdownView.editor.replaceSelection(icon.icon);
