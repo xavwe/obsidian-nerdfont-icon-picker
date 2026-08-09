@@ -7,7 +7,7 @@ export default defineConfig(
     "node_modules",
     "dist",
     "esbuild.config.mts",
-    "version-bump.mjs",
+    "update-icons.mjs",
     "versions.json",
     "main.js",
     "package.json",
