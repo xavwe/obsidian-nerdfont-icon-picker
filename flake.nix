@@ -11,7 +11,7 @@
 
         # for scripts
         jq
-        git
+        curl
       ];
     };
   };
